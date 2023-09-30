@@ -1,0 +1,30 @@
+{
+    "add_is_visible": true,
+    "category": "input forms",
+    "default_dim": {
+        "height": 5,
+        "width": 5
+    },
+    "display": "Cálculo Horas",
+    "fields": {
+        "AAD": {
+            "caption": "Minutos",
+            "default_val": 0,
+            "editor": "DynamicValue",
+            "name": "minutos",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-alarm-clock",
+    "states": {
+        "AAE": {
+            "caption": "Display",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\nreturn '00:00';\n\n}"
+            },
+            "name": "display",
+            "value": "text"
+        }
+    }
+}
